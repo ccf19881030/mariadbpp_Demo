@@ -11,11 +11,11 @@ mariadbpp is a C++ client library for MariaDB. Continuation of https://code.laun
 #### (1)、本项目使用数据库前，在MySQL或者Mariadb库中建立一个university数据库，在university数据库再建立一张学生表Student，
 Student表的结构如下：
 ```
-Field     Type              Null      Key    Default Extra
-Sno	      varchar(255)	    NO	      PRI		
-Sname	    varchar(255)	    YES			
-Ssex	    char(2)	          YES			
-Sage	    int(20)	          YES			
+Field       Type                Null         Key     Default    Extra
+Sno	      varchar(255)	        NO	         PRI		
+Sname	  varchar(255)	        YES			
+Ssex	   char(2)	            YES			
+Sage	   int(20)	            YES			
 ```
 ### 4、使用mariadbpp库
 #### (1)、可以参考[mariadbpp](https://github.com/viaduck/mariadbpp)
