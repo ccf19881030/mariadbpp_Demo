@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 
 	MariadbProcess mariadbPro("localhost", "root", "password", "university");
 	StudentArray stuArray;
-	// 从数据库university中查询Student表的数据到stuArray中
+	// 从数据库university中查询Student表的数据到stuArray中,Student表结构可以参见student.sql脚本
 	mariadbPro.select_from_student_table(stuArray);
 
 	int i = 0;
