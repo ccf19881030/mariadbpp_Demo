@@ -4,7 +4,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <IncludePath>D:\env_build\mariadbpp\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\env_build\mariadbpp\.build\Debug;$(LibraryPath)</LibraryPath>
+    <LibraryPath>D:\env_build\mariadbpp\build\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
