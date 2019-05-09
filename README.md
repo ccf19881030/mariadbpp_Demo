@@ -9,8 +9,7 @@ mariadbpp is a C++ client library for MariaDB. Continuation of https://code.laun
 我编译的是x86的Debug和Release版本的，如果需要在x64位环境下运行需要自行编译对应的Win64位版本。
 ### 3、数据库：MySQL或者Mariadb
 #### (1)、本项目使用数据库前，在MySQL或者Mariadb库中建立一个university数据库，在university数据库再建立一张学生表Student，
-Student表的结构为：
-![image](https://github.com/ccf19881030/mariadbpp_Demo/tree/master/images/Student.png)
+Student表的结构为：![image](https://github.com/ccf19881030/mariadbpp_Demo/blob/master/images/Student.png)
 ### 4、使用mariadbpp库
 #### (1)、可以参考[mariadbpp](https://github.com/viaduck/mariadbpp)
 ```c++
