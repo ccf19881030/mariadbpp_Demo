@@ -8,7 +8,7 @@ mariadbpp is a C++ client library for MariaDB. Continuation of https://code.laun
 #### (2)、主项目mariadbpp_Demo目录下，mariadbpp_win32_debug.props是mariadbpp库的属性配置文件，其头文件路径为：D:\env_build\mariadbpp\include，lib库文件路径为：D:\env_build\mariadbpp\build\Debug，需要链接的lib库为：mariadbclientpp.lib。
 我编译的是x86的Debug和Release版本的，如果需要在x64位环境下运行需要自行编译对应的Win64位版本。
 ### 3、数据库：MySQL或者Mariadb
-#### (1)、本项目使用数据库前，在MySQL或者Mariadb库中建立一个university数据库，在university数据库再建立一张学生表Student，
+#### (1)、本项目使用数据库前，在MySQL或者Mariadb库中建立一个university数据库，在university数据库再建立一张学生表Student，创建Student表的SQL脚本见mariadbpp_Demo主目录下的student.sql。
 Student表的结构为：![image](https://github.com/ccf19881030/mariadbpp_Demo/blob/master/images/Student.png)
 ### 4、使用mariadbpp库
 #### (1)、可以参考[mariadbpp](https://github.com/viaduck/mariadbpp)
