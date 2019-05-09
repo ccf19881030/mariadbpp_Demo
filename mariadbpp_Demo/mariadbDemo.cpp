@@ -5,16 +5,18 @@
 int main(int argc, char *argv[])
 {
 
-	MariadbProcess mariadbPro("localhost", "root", "cppadmin@123", "university");
+	MariadbProcess mariadbPro("localhost", "root", "password", "university");
 	StudentArray stuArray;
+	// ä»æ•°æ®åº“universityä¸­æŸ¥è¯¢Studentè¡¨çš„æ•°æ®åˆ°stuArrayä¸­
 	mariadbPro.select_from_student_table(stuArray);
 
 	int i = 0;
+	// æ‰“å°æŸ¥è¯¢åˆ°çš„Studentè¡¨æ•°æ®
 	for (StudentArray::iterator it = stuArray.begin(); it != stuArray.end(); ++it )
 	{
-		std::cout << "[µÚ" << ++i << "¸öÑ§ÉúµÄÊı¾İÎª:]" << "Ñ§ºÅ£º" << (*it).Sno << ","
-			<< "ĞÕÃû£º" << (*it).Sname << "," << "ĞÔ±ğ£º" << (*it).Ssex << ","
-			<< "ÄêÁä£º" << (*it).Sage << std::endl;
+		std::cout << "[ç¬¬" << ++i << "ä¸ªå­¦ç”Ÿçš„æ•°æ®ä¸º:]" << "å­¦å·ï¼š" << (*it).Sno << ","
+			<< "å§“åï¼š" << (*it).Sname << "," << "æ€§åˆ«ï¼š" << (*it).Ssex << ","
+			<< "å¹´é¾„ï¼š" << (*it).Sage << std::endl;
 	}
 	
 	std::system("pause");
