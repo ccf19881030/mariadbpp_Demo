@@ -57,7 +57,6 @@ stmt->set_unsigned32(2, 42);
 stmt->insert();
 
 ```
-More usage examples can be found in the `test/` directory.
 自己写C++项目时，可以针对具体的业务逻辑封装一个MariadbProcess类，对数据库进行操作，具体见相应的代码。
 
 
